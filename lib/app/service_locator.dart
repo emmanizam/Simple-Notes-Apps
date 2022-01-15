@@ -18,7 +18,7 @@ void initializeServiceLocator() {
 
   //TODO To switch between service, comment out the line below accordingly
   locator.registerLazySingleton<NoteService>(() => NoteServiceMock());
-  // locator.registerLazySingleton<NoteService>(() => NoteServiceRest());
+  //locator.registerLazySingleton<NoteService>(() => NoteServiceRest());
 
   // Viewmodels
   locator.registerLazySingleton<MainViewmodel>(() => MainViewmodel());

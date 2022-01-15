@@ -11,8 +11,8 @@ import '../../models/note.dart';
 /// `NoteServiceRest` is a datbase service for notes that are accessed from a REST service.
 ///
 class NoteServiceRest extends NoteService {
-  RestService get rest => locator<RestService>();
-  final _rest = RestService(baseUrl: 'http://192.168.0.100:3000');
+  RestService get _rest => locator<RestService>();
+  final rest = RestService(baseUrl: 'http://192.168.0.100:3000');
 
   @override
   Future<List<Note>> fetchNotes() async {
