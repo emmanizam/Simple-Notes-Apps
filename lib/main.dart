@@ -1,6 +1,4 @@
-//? The main file (main.dart) is fully given. Do nothing here.
-// Muhammad Amin Bin Izam Hasri / B18CS0012
-// Siti Fatimah Az Zahra / A19EC3032
+
 import 'package:flutter/material.dart';
 import 'app/service_locator.dart';
 import 'screens/main/main_screen.dart';
